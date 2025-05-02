@@ -5,7 +5,7 @@ pkgs.mkShell {
   nativeBuildInputs = [
     pkgs.cargo
     pkgs.clippy
-    pkgs.pkgconfig
+    pkgs.pkg-config
     pkgs.python3
     pkgs.rustc
     pkgs.rustfmt
